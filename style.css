@@ -1,0 +1,34 @@
+@@ -13,11 +13,31 @@
+}
+
+.cabecalho-imagem{
+    width: 20%;
+    width: 15%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+    font-size: 20px;
+}
+
+.Moda Modesta-imagem{
+    width: 25%;
+}
+
+.Moda Modesta{
+    background-image: linear-gradient(#424E61,#16CFF8);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.Moda Modesta-div-conteudo{
+    width: 35%;
+}
+.Moda Modesta-titulo{
+    padding: 24px 0;
+}
