@@ -1,76 +1,16 @@
-*{
-margin: 0%;
-padding:0%;
-
-}
-body{ 
-background-color: #Ffffff;
-font-family: 'Sono', sans-serif;
-}
-
-.cabecalho {
-display: flex;
-justify-content: space-around;
-align-items: center;
-background-color: #BCB0B0;
-border-radius: 0px 0px 0px 150px;
+:root{
+    --cor-de-fundo: #1e1e1e;
+    --verde: #6fff6f;
+    --BRANCO: #FFFFFF;
+    --BOTAO-ATIVO: #3A375E;
+    --BOTAO-INATIVO: rgba(58,55, 94, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.3);
 
 }
 
-.cabecalho__imagem{
 
-    width: 130px;
-    height: 157px;
-    border-radius: 600px;
-  
-   
-}
-.cabecalho__menu{
-
-    display: inline;
-}
-.cabecalho__menu-item{
-    display: inline;
-    margin-left: 20px;
-    color:#FEC229;
-    font-size: 32px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-}
-
-.escola{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ECE6E6;
-    border-radius: 40px;
-    margin: 20px;
-}
-
-.escola__div{
-    display: inline;
-    width: 200px;
-    height: auto ;
-}
-
-.escola__imagem{
-    width: 200px;
-    height: auto;
-    margin-left: 40px;
-}
-
-.professores {
-    text-align: center;
-    background-color: #FEC229;
-    border-radius: 40px;
-    margin: 20px;
-}
-.professores__div{
-    text-align: center;
-}
-.professores__div-imagem{
-    width: 120px;
-    height: auto;
-
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Chakra Petch', sans-serif;
 }
