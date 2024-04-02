@@ -52,12 +52,28 @@ body{
    border-top: none;
 }
 
+.botoes::first-child{
+    border: radius 40px 40px 0 0;
+}
+
 .botoes {
     display: block;
 }
+
+
+.ativo{
+    background-color: var(--BOTAO-ATIVO);
+    border-bottom: 4px solid var(--verde);
+}
+
 @media screen and (min-width: 768px) {
         .botoes{
             display: flex;
         }
-    
+    .botoes:first-child{
+        border-radius: 40px 0 0;
+    }
+    .botao:last-child{
+        border-radius: 0 40px 0 0;
+    }
 }
